@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass|Satisfy)
+
+*{
+	box-sizing: border-box;
+}
+
+.header{
+	width: 80%;
+	margin: 50px 10%;
+	text-align: center;
+}
+
+.header h1{
+	font-size: 40px;
+	padding: 20px;
+	margin: 10px;
+	font-family: 'Satisfy', cursive;
+	color: #1982A5;
+}
+.header span{
+	font-size: 14px;
+	color: #888;
+}
+
+.wrapper{
+	width: 70%;
+	margin: 50px 15%;
+	font-family: 'Overpass', sans-serif;
+}
+
+.wrapper form{
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.wrapper form input{
+	border: none;
+	width: 400px;
+	border-bottom: 1px solid #888;
+	padding: 10px;
+	transition: all 0.5s;
+}
+
+.wrapper form input:hover{
+	outline: none;
+	border-bottom: 1px solid #666;
+	-webkit-box-shadow: 0 8px 6px -6px #777;
+  -moz-box-shadow: 0 8px 6px -6px #777;
+  box-shadow: 0 8px 6px -6px #777;
+}
+
+.wrapper form input:focus{
+	outline: none;
+	border-bottom: 1px solid #666;
+	-webkit-box-shadow: 0 8px 6px -6px #777;
+  -moz-box-shadow: 0 8px 6px -6px #777;
+  box-shadow: 0 8px 6px -6px #777;
+}
+
+
+.wrapper div{
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	margin: 20px 0;
+}
+
+.loading span, .error span{
+	font-size: 13px;
+	color: #999;
+}
+
+.url-div span{
+	color: #333;
+	font-size: 14px;
+}

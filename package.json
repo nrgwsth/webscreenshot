@@ -1,0 +1,28 @@
+{
+  "name": "webscreenshot",
+  "version": "0.0.1",
+  "description": "Take screenshot of webpages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Anurag Awasthi",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser":"*",
+    "express-handlebars":"*",
+    "socket.io": "*",
+    "webshot": "*"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "express"
+  ]
+}
