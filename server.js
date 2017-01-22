@@ -18,7 +18,7 @@ var webshot = require('webshot');
 
 var path = require("path");
 
-const domain = "https://takescreenshot.herokuapp.com";
+const domain = "https://takescreenshot.herokuapp.com/";
 
 const fs = require("fs");
 
